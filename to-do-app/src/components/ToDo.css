@@ -1,0 +1,45 @@
+.parent-container {
+    height: 100vh;
+}
+
+.header-container {
+    height: 6vh;
+    background-color: #555555;
+    color: #fff;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url('../../assets/user.png') !important; 
+    background-size: cover;
+}
+
+.content-container {
+    height: 94vh;
+    background-image: url('../../assets/app-background.jpg') !important; 
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.tasks-container {
+    height: 70vh;
+    overflow: auto;
+}
+
+.task-name-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.input-container {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(5px);
+}
+
+.material-icons {
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.task-container {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(5px);
+}
+
+.outline-none {
+    outline: none;
+}
+

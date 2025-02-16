@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jhon Kelin",
+      "email": "jhon@example.com",
+      "password": "Jhon@123"
+    }
+  ],
+  "taskList": [
+    {
+      "id": "1",
+      "taskList": [
+        {
+          "id": 1,
+          "task": "Week Agenda Meetup",
+          "completed": false,
+          "dueDateTime": "2025-02-17T10:15",
+          "reminderEnabled": true,
+          "priority": "High"
+        },
+        {
+          "id": 2,
+          "task": "Create To Do Project",
+          "completed": false,
+          "dueDateTime": "2025-02-16T20:00",
+          "reminderEnabled": false
+        },
+        {
+          "id": 3,
+          "task": "Upskilling session",
+          "completed": true,
+          "dueDateTime": "2025-02-16T20:59",
+          "reminderEnabled": false
+        }
+      ]
+    }
+  ]
+}
